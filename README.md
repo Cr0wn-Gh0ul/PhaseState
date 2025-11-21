@@ -1,8 +1,8 @@
-# PhaseState
+# PhaseState 
 
-[![npm version](https://badge.fury.io/js/phasestate.svg)](https://badge.fury.io/js/phasestate)
-[![CI](https://github.com/Cr0wn-Gh0ul/PhaseState/actions/workflows/ci.yml/badge.svg)](https://github.com/Cr0wn-Gh0ul/PhaseState/actions/workflows/ci.yml)
+![NPM Version](https://img.shields.io/npm/v/phasestate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+[![CI](https://github.com/Cr0wn-Gh0ul/PhaseState/actions/workflows/ci.yml/badge.svg)](https://github.com/Cr0wn-Gh0ul/PhaseState/actions/workflows/ci.yml)
 [![Tests](https://img.shields.io/badge/tests-48%20passed-brightgreen.svg)]()
 [![Coverage](https://img.shields.io/badge/coverage-98%25-brightgreen.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
