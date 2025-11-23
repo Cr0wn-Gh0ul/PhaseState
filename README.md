@@ -32,7 +32,7 @@ npm install phasestate
 import { machine } from 'phasestate';
 
 // Create a state machine
-const fsm = machine("idle", { count: 0 })
+const phaseState = machine("idle", { count: 0 })
   .when("idle", {
     enter: () => console.log("Ready"),
     to: ["active"]
@@ -56,14 +56,14 @@ const fsm = machine("idle", { count: 0 })
   .can("active", state => state.context.count < 100);
 
 // Use it
-await fsm.to("active");
-fsm.set({ count: 5 });
+await phaseState.to("active");
+phaseState.set({ count: 5 });
 
 // Check available transitions
-console.log(fsm.transitions()); // ['complete', 'error']
+console.log(phaseState.transitions()); // ['complete', 'error']
 
 // Listen to transitions
-fsm.on(event => {
+phaseState.on(event => {
   if ('type' in event && event.type === 'transition') {
     console.log(`${event.from} → ${event.to}`);
   }
