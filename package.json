@@ -1,6 +1,6 @@
 {
   "name": "phasestate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A strongly-typed, minimal finite state machine library for TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
